@@ -3,6 +3,9 @@ TEST_DIR=tests
 
 export PYTHONPATH=.
 
+patch:
+	binalyzer patch -i fluxbenchd-cec6fd6 -o fluxbenchd.patched -p mod.xml
+
 all:
 
 sloc:

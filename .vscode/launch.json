@@ -2,13 +2,13 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Binalyzer VMF Unit Test",
+            "name": "Binalyzer Patch Unit Test",
             "type": "python",
             "request": "launch",
             "program": "${workspaceFolder}/../.venv/bin/pytest",
             "args": [
                 "-v",
-                "../binalyzer-vmf/tests/test_cli.py::test_vmf_missing_input_file"
+                "../binalyzer-patch/tests/test_cli.py::test_cli"
             ],
             "env": {
                 "PYTHONPATH": "binalyzer"
